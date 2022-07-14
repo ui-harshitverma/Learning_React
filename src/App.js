@@ -4,6 +4,7 @@ import ConditionalRender from './Components/ConditionalRendering';
 import DestructuringProps from './Components/destructuringProps';
 import Submit from './Components/formSubmitData';
 import FunctionalComp from './Components/FunctionalComponent';
+import ListRendering from './Components/ListRendering';
 import PassFunAsProps from './Components/PassFunAsProps';
 import UseEffectHook from './Components/UseEffectHook';
 import UseStateHook from './Components/UseStateHook';
@@ -19,6 +20,7 @@ function App() {
     <DestructuringProps title = "heading" subTitle = "paragraph" details ="click on the link"/>
     <Submit/>
     <PassFunAsProps/>
+    <ListRendering/>
     </>
   );
 }
