@@ -2,6 +2,7 @@ import './App.css';
 import ClassComp from './Components/ClassComponent';
 import ConditionalRender from './Components/ConditionalRendering';
 import DestructuringProps from './Components/destructuringProps';
+import MultipleInputs from './Components/FormHandling/multipleInputs';
 import Submit from './Components/formSubmitData';
 import FunctionalComp from './Components/FunctionalComponent';
 import ListRendering from './Components/ListRendering';
@@ -21,6 +22,7 @@ function App() {
     <Submit/>
     <PassFunAsProps/>
     <ListRendering/>
+    <MultipleInputs/>
     </>
   );
 }
