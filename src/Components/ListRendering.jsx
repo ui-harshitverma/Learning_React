@@ -1,18 +1,10 @@
 import React from "react";
 
 const data = [
-	{
-		item: "first"
-	},
-	{
-		item: "second"
-	},
-	{
-		item: "third"
-	},
-	{
-		item: 'fourth'
-	}
+	{item: "first"},
+	{item: "second"},
+	{item: "third"},
+	{item: 'fourth'}
 ];
 
 const ListRendering = () => {
@@ -28,6 +20,5 @@ const ListRendering = () => {
 		</>
 	)
 }
-
 
 export default ListRendering;

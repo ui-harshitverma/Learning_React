@@ -1,60 +1,60 @@
 import React, { useState } from "react";
 
 function Submit() {
-  const [inputField, setInputField] = useState({
-    first_name: "",
-    last_name: "",
-    gmail: ""
-  });
-  const [input, setInput] = useState({});
+	const [inputField, setInputField] = useState({
+		first_name: "",
+		last_name: "",
+		gmail: ""
+	});
+	const [input, setInput] = useState({});
 
-  const inputsHandler = (e) => {
-    const { name, value } = e.target;
-    setInputField((prevState) => ({
-      ...prevState,
-      [name]: value
-    }));
-  };
+	const inputsHandler = (e) => {
+		const { name, value } = e.target;
+		setInputField((prevState) => ({
+			...prevState,
+			[name]: value
+		}));
+	};
 
-  const submitButton = () => {
-    console.log(input, inputField);
-  };
+	const submitButton = () => {
+		console.log(input, inputField);
+	};
 
-  return (
-    <div>
-      <input
-        type="text"
-        name="first_name"
-        onChange={inputsHandler}
-        placeholder="First Name"
-        value={inputField.first_name}
-      />
+	return (
+		<div>
+			<input
+				type="text"
+				name="first_name"
+				onChange={inputsHandler}
+				placeholder="First Name"
+				value={inputField.first_name}
+			/>
 
-      <br />
+			<br />
 
-      <input
-        type="text"
-        name="last_name"
-        onChange={inputsHandler}
-        placeholder="First Name"
-        value={inputField.last_name}
-      />
+			<input
+				type="text"
+				name="last_name"
+				onChange={inputsHandler}
+				placeholder="First Name"
+				value={inputField.last_name}
+			/>
 
-      <br />
+			<br />
 
-      <input
-        type="gmail"
-        name="gmail"
-        onChange={inputsHandler}
-        placeholder="Gmail"
-        value={inputField.gmail}
-      />
+			<input
+				type="gmail"
+				name="gmail"
+				onChange={inputsHandler}
+				placeholder="Gmail"
+				value={inputField.gmail}
+			/>
 
-      <br />
+			<br />
 
-      <button onClick={submitButton}>Submit Now</button>
-    </div>
-  );
+			<button onClick={submitButton}>Submit Now</button>
+		</div>
+	);
 }
 
 export default Submit;
