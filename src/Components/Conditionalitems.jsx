@@ -23,10 +23,7 @@ const ConditionalItems = (props) => {
 			   </div> 
 			</>
 		)
-	}
-
-	
+	}	
 }
-
 
 export default ConditionalItems;

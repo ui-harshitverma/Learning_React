@@ -21,10 +21,11 @@ const MultipleInputs = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-
-		const newRecord = { ...userRegistration, id: new Date().getTime().toString() };
-		setRecords([...records, newRecord]);
-		setUserRegistration(details);
+		// if(userRegistration.trim() && userRegistration!=="null") {
+			const newRecord = { ...userRegistration, id: new Date().getTime().toString() };
+			setRecords([...records, newRecord]);
+			setUserRegistration(details);
+		// }
 	}
 	return (
 		<>

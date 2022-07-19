@@ -5,6 +5,8 @@ import DestructuringProps from './Components/destructuringProps';
 import MultipleInputs from './Components/FormHandling/multipleInputs';
 import Submit from './Components/formSubmitData';
 import FunctionalComp from './Components/FunctionalComponent';
+import UseReducer from './Components/Hooks/UseReducer';
+import Methods from './Components/LifeCycleMethod/Methods';
 import ListRendering from './Components/ListRendering';
 import PassFunAsProps from './Components/PassFunAsProps';
 import UseEffectHook from './Components/UseEffectHook';
@@ -23,6 +25,8 @@ function App() {
     <PassFunAsProps/>
     <ListRendering/>
     <MultipleInputs/>
+    <Methods/>
+    <UseReducer/>
     </>
   );
 }
