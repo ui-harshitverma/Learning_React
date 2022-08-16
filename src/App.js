@@ -5,6 +5,7 @@ import { Vikas } from './Components/HOC/Vikas';
 import { Ajay } from './Components/HOC/Ajay';
 import { Sushant } from './Components/HOC/Sushant';
 import Subjects from './Components/HOC/HOC';
+import UseReducer from './Components/Hooks/UseReducer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Vikas/>
         <Ajay/>
         <Sushant/>
+        <UseReducer/>
       </div>
     </>
   );

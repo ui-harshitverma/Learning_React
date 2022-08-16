@@ -1,7 +1,7 @@
 import React from "react";
 import Subjects from "./HOC";
 
-class Vikas extends React.Component{
+export class Vikas extends React.Component{
 	state={
 		marks : 0
 	}
@@ -17,4 +17,3 @@ class Vikas extends React.Component{
 	}
 }
 
-export default Subjects(Vikas);
